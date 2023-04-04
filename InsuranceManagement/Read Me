@@ -56,3 +56,13 @@ iv. PUT
 v. DELETE 
 /api/claims/delete-claim/{id}: Delete a claim.
 
+
+# Steps to run the application locally :
+1 :If you want to run the programme using h2 database then uncomment h2 dependancy from pom .xml and also uncomment h2 properties from application.properties you can do vise-versa if you want to use mysql .
+
+
+
+
+# Discription Of project :
+
+Using above apis we can create 3 module that are client ,claim and policy module .We can perform crud services on each module .
